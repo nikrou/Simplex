@@ -48,26 +48,26 @@ That tutorial is tested with [atoum](https://github.com/atoum/atoum) instead of 
 
 Content
 -------
-## part 1 - Why would you like to create your own framework?
+### part 1 - Why would you like to create your own framework?
 
-## part 2 - The HttpFoundation Component
+### part 2 - The HttpFoundation Component
 
-## part 3 - The Front Controller
+### part 3 - The Front Controller
 
-## part 4 - The Routing Component
+### part 4 - The Routing Component
 
-## part 5 - Templating
+### part 5 - Templating
 
-## part 6 - The HttpKernel Component: the Controller Resolver
+### part 6 - The HttpKernel Component: the Controller Resolver
 
-## part 7 - The Separation of Concerns
+### part 7 - The Separation of Concerns
 
-## part 8 - Unit Testing
+### part 8 - Unit Testing
 
-## part 9 - The EventDispatcher Component
+### part 9 - The EventDispatcher Component
 
-## part 10 - The HttpKernel Component: HttpKernelInterface
+### part 10 - The HttpKernel Component: HttpKernelInterface
 
-## part 11 - The HttpKernel Component: The HttpKernel Class
+### part 11 - The HttpKernel Component: The HttpKernel Class
 
-## part 12 - The DependencyInjection Component
+### part 12 - The DependencyInjection Component
