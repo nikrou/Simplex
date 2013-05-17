@@ -31,15 +31,17 @@ class Framework extends atoum
 
   protected function getFrameworkForException($exception) {
     $matcher = new \mock\Symfony\Component\Routing\Matcher\UrlMatcherInterface();
+    $dispatcher = new \mock\Symfony\Component\EventDispatcher\EventDispatcher();
     $this->calling($matcher)->match->throw = $exception;
 
     $resolver = new \mock\Symfony\Component\HttpKernel\Controller\ControllerResolverInterface();
 
-    return new \Simplex\Framework($matcher, $resolver);
+    return new \Simplex\Framework($dispatcher, $matcher, $resolver);
   }
 
   public function testControllerResponse() {
     $matcher = new \mock\Symfony\Component\Routing\Matcher\UrlMatcherInterface();
+    $dispatcher = new \mock\Symfony\Component\EventDispatcher\EventDispatcher();
 
     $this->calling($matcher)->match = function() {
       return array('_route' => 'foo',
@@ -51,7 +53,7 @@ class Framework extends atoum
     };
 
     $resolver = new ControllerResolver();
-    $framework = new \Simplex\Framework($matcher, $resolver);
+    $framework = new \Simplex\Framework($dispatcher, $matcher, $resolver);
 
     $response = $framework->handle(new Request());
 
