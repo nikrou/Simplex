@@ -45,6 +45,13 @@ Changes
 
 That tutorial is tested with [atoum](https://github.com/atoum/atoum) instead of PHPUnit.
 
+Tests
+-----
+
+You can run tests (starting from part 8) :
+```
+$ ./bin/atoum
+```
 
 Content
 -------
