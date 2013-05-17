@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "02fabedc1ac193542aed4591f7de3e39",
+    "hash": "067730ccb48fec37b59e4cb17a244628",
     "packages": [
         {
             "name": "symfony/class-loader",

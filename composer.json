@@ -20,6 +20,6 @@
         "bin-dir": "bin/"
     },
     "autoload": {
-        "psr-0": { "": "src/" }
+        "psr-0": { "Simplex": "src/", "Calendar": "src/" }
     }
 }
