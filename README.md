@@ -38,6 +38,7 @@ Run
 You can access each part of the tutorial with (example part 3) :
 ```
 $ git checkout -f part-3
+```
 
 Changes
 -------

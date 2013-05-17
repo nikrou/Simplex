@@ -1,0 +1,22 @@
+{
+    "name": "nikrou/simplex",
+    "description": "Simplex Framework",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Nicolas",
+            "email": "nikrou77@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3",
+	"symfony/class-loader": "2.1.*"
+    },
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "autoload": {
+        "psr-0": { "": "src/" }
+    }
+}
